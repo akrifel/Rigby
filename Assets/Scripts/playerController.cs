@@ -19,7 +19,10 @@ public class playerController : MonoBehaviour
     [Header("Movement Settings")]
     public float speed = 5f;
     public float jumpforce = 10f;
-    [SerializeField] LayerMask Ground;
+    float oldspeed;
+    float oldJump;
+    [SerializeField] float yellowJF = 15f;
+    [SerializeField] float yellowSpeed = 7f;
 
     [Header("Player Health")]
     [SerializeField] int health = 1;
@@ -31,6 +34,11 @@ public class playerController : MonoBehaviour
     private Rigidbody2D rigidbody2d;
     private Animator anim;
 
+    [Header("Color Type Shit")] //Kinda redundant variables, but i did them so deal with it
+
+    public string[] Colors = new string[] { "Red", "Blue", "Yellow", "Green", "Black", "Regular" };
+    public string SelectedColor = null;
+
     [SerializeField]
 
     public ColorState currentColor = ColorState.Regular;
@@ -41,6 +49,8 @@ public class playerController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        oldspeed = speed;
+        oldJump = jumpforce;
     }
     private void FixedUpdate()
     {
@@ -58,6 +68,8 @@ public class playerController : MonoBehaviour
         ChangeColor();
         ChangeSprite();
 
+        yellowVoid();
+
     }
     void Jump()
     {
@@ -72,26 +84,32 @@ public class playerController : MonoBehaviour
     private void ChangeColor(){
         if (Input.GetKey(KeyCode.Z))
         {
+            SelectedColor = Colors[0];
             currentColor = ColorState.Red;
         }
         if (Input.GetKey(KeyCode.X))
         {
+            SelectedColor = Colors[1];
             currentColor = ColorState.Blue;
         }
         if (Input.GetKey(KeyCode.C))
         {
+            SelectedColor = Colors[2];
             currentColor = ColorState.Yellow;
         }
         if (Input.GetKey(KeyCode.V))
         {
+            SelectedColor = Colors[3];
             currentColor = ColorState.Green;
         }
         if (Input.GetKey(KeyCode.B))
         {
+            SelectedColor = Colors[4];
             currentColor = ColorState.Black;
         }
         if (Input.GetKey(KeyCode.N))
         {
+            SelectedColor = Colors[5];
             currentColor = ColorState.Regular;
         }
     }
@@ -116,11 +134,16 @@ public class playerController : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other) {
-        if (other.gameObject.tag == "Ground") 
+        if (other.gameObject.tag == "Ground" || other.gameObject.tag == "Blue Floor") 
         {
             anim.SetBool("isJumping", false);
             isGrounded = true;
-        } 
+        }
+        if (other.gameObject.tag == "Blue Floor" && SelectedColor != Colors[1])
+        {
+            Debug.Log("ded");//Add Death Stuff Here
+
+        }
     }
 
     private void OnCollisionExit2D(Collision2D col)
@@ -128,6 +151,20 @@ public class playerController : MonoBehaviour
         anim.SetBool("isJumping", true);
         isGrounded = false;
     }
-    
-    
+
+    void yellowVoid()
+    {
+
+        if (SelectedColor == Colors[2])
+        {
+            speed = yellowSpeed;
+            jumpforce = yellowJF;
+        }
+        else
+        {
+            speed = oldspeed;
+            jumpforce = oldJump;
+        }
+
+    }
 }
