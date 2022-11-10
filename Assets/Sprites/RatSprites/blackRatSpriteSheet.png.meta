@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f96a9ef34350adc40972691eec3c6cc7
-      internalID: -309817823
+      spriteID: 5edecc14d1ea5164d8fe6a91709368df
+      internalID: 1433696522
       vertices: []
       indices: 
       edges: []
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d568112bbc2ef5643a7f05bed88c8698
-      internalID: -372898344
+      spriteID: 74173157a28bbf24e8894bb400b20ad5
+      internalID: 556166999
       vertices: []
       indices: 
       edges: []
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8245461691dfa94ca2669df1256e9ca
-      internalID: -1505888974
+      spriteID: 225a7f02fc65e474d87a993e1d276ab9
+      internalID: 1848342301
       vertices: []
       indices: 
       edges: []
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 219c1a0f48adbd744b77c2ba8d948e7b
-      internalID: 2010651234
+      spriteID: 8964a383e06c3c5449ad1699a1f7686e
+      internalID: 155798968
       vertices: []
       indices: 
       edges: []
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c40401bfa0cc34e8bf4849f5735b7e
-      internalID: 53726063
+      spriteID: 563cb34d76178a04b93c514cb4e89b02
+      internalID: 351961946
       vertices: []
       indices: 
       edges: []
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c097087dc798914a87250d797b5619e
-      internalID: -125439449
+      spriteID: 57ba32d08046c684f85339a75f853355
+      internalID: 593932247
       vertices: []
       indices: 
       edges: []
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b7684b0b2800c141943ce0bb91b2a6c
-      internalID: -1900414419
+      spriteID: dd2e93b23a89484499c0f21975cc7e52
+      internalID: -1204704616
       vertices: []
       indices: 
       edges: []
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fec4a6de60954864494b80b64ea5ef06
-      internalID: -385982059
+      spriteID: 59544f1421255c64993f56871a77cad9
+      internalID: -876226937
       vertices: []
       indices: 
       edges: []
@@ -287,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6047ede964464364b9197ab9aa8a5bd0
-      internalID: -1126571907
+      spriteID: 0a8630e740155f44e87e5b73a65c3a48
+      internalID: -1618335752
       vertices: []
       indices: 
       edges: []
@@ -308,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22925c22437c38849bc6c988b8e523de
-      internalID: -389702328
+      spriteID: 767ef29a8786d474e81a31adc8d457bd
+      internalID: 1995826137
       vertices: []
       indices: 
       edges: []
@@ -329,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaebc03e77aee4a4a98f9e845c40ca07
-      internalID: 1773643662
+      spriteID: 637ad4b6a477c614399505688573e44b
+      internalID: -494372269
       vertices: []
       indices: 
       edges: []
@@ -350,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 495c433bae631544b94ebb62734b7e92
-      internalID: -18190818
+      spriteID: 2d6f7b3774ca4124ebc0108b691d0514
+      internalID: -1537176867
       vertices: []
       indices: 
       edges: []
@@ -371,8 +371,491 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f31b6e73df938a4e94ef7314801e136
-      internalID: -1025085201
+      spriteID: c36266cef69806a4ab83c1c5e0c23818
+      internalID: 1176076695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c664be2d6816afb4dae5367e72d48f8f
+      internalID: -349226956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf27b2526c978d44eae2efa1a6d80f7f
+      internalID: 644866277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43312b606093b534283cf545d12d1055
+      internalID: 329975109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d670c49dcb55014389dae39b55ce5c8
+      internalID: -1139076398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd1d15b4f140441ab6e38a01a83ef6
+      internalID: 74853335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 937dc000b0bdaf449a761565affd4546
+      internalID: 1625521481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4acfc35903315c64daee11d7653e84df
+      internalID: -1464961101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee4b21e766666d459c351c5433e6266
+      internalID: 2068576345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b432eb7475b6e4bac73d1e0837b060
+      internalID: -146973744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec46fb6255cc4f54b81a78a0d2f5a843
+      internalID: 140958577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d89d036002c0a4abb854a6f1ff1663
+      internalID: 1984982659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee4c24a470e4ad4196b65e2fb954d16
+      internalID: 721596489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6ebd617aeade44486d3dd2f85375ac
+      internalID: -789469939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff4350287684bb43a4364d956520f8a
+      internalID: 851750384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e8586fe56431144b8677fd0663b169
+      internalID: -826645232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689781cf3ac7f74e8335877981f824b
+      internalID: -561058315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89f7159adfbdc1a4eaa8a59f299b18c8
+      internalID: 1109902577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b8115116db5244419f4d90edd933a27
+      internalID: 475169403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2b67eca384a4644b84dd1a34b2caad
+      internalID: -1299674509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f1be8dc08cf7364ca2eb457e15c4218
+      internalID: -1931672122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107066a803fb76943a865a010eedaadf
+      internalID: -176960878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0b797e887050642a0d19e065c60e98
+      internalID: -1055249200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blackRatSpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d5f9c857c02fa4184f4c2cdf7bbc18
+      internalID: -1691717184
       vertices: []
       indices: 
       edges: []
@@ -388,19 +871,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      blackRatSpriteSheet_8: -1126571907
-      blackRatSpriteSheet_5: -125439449
-      blackRatSpriteSheet_0: -309817823
-      blackRatSpriteSheet_9: -389702328
-      blackRatSpriteSheet_6: -1900414419
-      blackRatSpriteSheet_10: 1773643662
-      blackRatSpriteSheet_11: -18190818
-      blackRatSpriteSheet_2: -1505888974
-      blackRatSpriteSheet_12: -1025085201
-      blackRatSpriteSheet_1: -372898344
-      blackRatSpriteSheet_3: 2010651234
-      blackRatSpriteSheet_4: 53726063
-      blackRatSpriteSheet_7: -385982059
+      blackRatSpriteSheet_32: -1931672122
+      blackRatSpriteSheet_8: -1618335752
+      blackRatSpriteSheet_30: 475169403
+      blackRatSpriteSheet_34: -1055249200
+      blackRatSpriteSheet_35: -1691717184
+      blackRatSpriteSheet_5: 593932247
+      blackRatSpriteSheet_0: 1433696522
+      blackRatSpriteSheet_9: 1995826137
+      blackRatSpriteSheet_6: -1204704616
+      blackRatSpriteSheet_10: -494372269
+      blackRatSpriteSheet_11: -1537176867
+      blackRatSpriteSheet_15: 329975109
+      blackRatSpriteSheet_21: -146973744
+      blackRatSpriteSheet_29: 1109902577
+      blackRatSpriteSheet_16: -1139076398
+      blackRatSpriteSheet_28: -561058315
+      blackRatSpriteSheet_26: 851750384
+      blackRatSpriteSheet_27: -826645232
+      blackRatSpriteSheet_2: 1848342301
+      blackRatSpriteSheet_12: 1176076695
+      blackRatSpriteSheet_17: 74853335
+      blackRatSpriteSheet_19: -1464961101
+      blackRatSpriteSheet_33: -176960878
+      blackRatSpriteSheet_25: -789469939
+      blackRatSpriteSheet_23: 1984982659
+      blackRatSpriteSheet_31: -1299674509
+      blackRatSpriteSheet_20: 2068576345
+      blackRatSpriteSheet_14: 644866277
+      blackRatSpriteSheet_1: 556166999
+      blackRatSpriteSheet_3: 155798968
+      blackRatSpriteSheet_4: 351961946
+      blackRatSpriteSheet_24: 721596489
+      blackRatSpriteSheet_13: -349226956
+      blackRatSpriteSheet_7: -876226937
+      blackRatSpriteSheet_18: 1625521481
+      blackRatSpriteSheet_22: 140958577
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

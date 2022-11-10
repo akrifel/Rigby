@@ -6,9 +6,11 @@ using UnityEngine;
 public enum ColorState{
     Regular,
     Red,
+    Blue,
     Yellow,
-    Blue, 
-    Black
+    Green,
+    Black,
+    
 }
 public class playerController : MonoBehaviour
 {
@@ -31,7 +33,8 @@ public class playerController : MonoBehaviour
 
     [SerializeField]
 
-    private ColorState currentColor = ColorState.Regular;
+    public ColorState currentColor = ColorState.Regular;
+    private int colorIndex;
 
     // Start is called before the first frame update
     void Start()
@@ -81,9 +84,13 @@ public class playerController : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.V))
         {
-            currentColor = ColorState.Black;
+            currentColor = ColorState.Green;
         }
         if (Input.GetKey(KeyCode.B))
+        {
+            currentColor = ColorState.Black;
+        }
+        if (Input.GetKey(KeyCode.N))
         {
             currentColor = ColorState.Regular;
         }
@@ -95,12 +102,7 @@ public class playerController : MonoBehaviour
             anim.SetLayerWeight(i,0);
         }
         //sets the weight of desired layer to 1
-      if(currentColor == ColorState.Red){
-        anim.SetLayerWeight(1,1);
-      }
-      if(currentColor == ColorState.Regular){
-        anim.SetLayerWeight(0,1);
-      }
+        anim.SetLayerWeight((int)currentColor, 1);
     }
 
     //flips sprite on local scale
