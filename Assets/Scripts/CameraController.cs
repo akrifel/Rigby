@@ -48,5 +48,6 @@ public class CameraController : MonoBehaviour
         }
         lineofsight.SetPosition(0, transform.position);
     }
+    
 }
 
