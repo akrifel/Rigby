@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 //All different color states for the character
 public enum ColorState{
@@ -27,6 +28,14 @@ public class playerController : MonoBehaviour
     [Header("Player Health")]
     [SerializeField] int health = 1;
 
+
+    [Header("Player Health")]
+    [SerializeField] int redLimit = 3;
+    [SerializeField] int blueLimit = 3;
+    [SerializeField] int yellowLimit = 3;
+    //[SerializeField] int greenLimit = 1;
+    //[SerializeField] int blackLimit = 1;
+
     [Header("Bools")]
     [SerializeField] bool isGrounded;
     private bool isFacingRight = true; 
@@ -43,6 +52,14 @@ public class playerController : MonoBehaviour
     [SerializeField]
     private float checkRadius;
 
+    [SerializeField]
+    private Image[] diamonds;
+
+    [SerializeField]
+    private Sprite[] status;
+
+    [SerializeField]
+    private Sprite[] numbers;
 
 
     [SerializeField]
@@ -57,6 +74,10 @@ public class playerController : MonoBehaviour
         anim = GetComponent<Animator>();
         oldspeed = speed;
         oldJump = jumpforce;
+
+        diamonds[1].sprite = numbers[redLimit];
+        diamonds[2].sprite = numbers[blueLimit];
+        diamonds[3].sprite = numbers[yellowLimit];
     }
     private void FixedUpdate()
     {
@@ -89,18 +110,27 @@ public class playerController : MonoBehaviour
 
     //Changes the color state of the character based on
     private void ChangeColor(){
-        if (Input.GetKey(KeyCode.Z))
+        if (Input.GetKey(KeyCode.Z) && redLimit > 0 && currentColor != ColorState.Red)
         {
             currentColor = ColorState.Red;
+            redLimit--;
+            diamonds[1].sprite = numbers[redLimit];
+            
         }
-        if (Input.GetKey(KeyCode.X))
+        if (Input.GetKey(KeyCode.X) && blueLimit > 0 && currentColor != ColorState.Blue)
         {
             currentColor = ColorState.Blue;
+            blueLimit--;
+            diamonds[2].sprite = numbers[blueLimit];
+            
         }
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.C) && yellowLimit > 0 && currentColor != ColorState.Yellow)
         {
             currentColor = ColorState.Yellow;
+            yellowLimit--;
+            diamonds[3].sprite = numbers[yellowLimit];
         }
+        /*
         if (Input.GetKey(KeyCode.V))
         {
             currentColor = ColorState.Green;
@@ -109,10 +139,12 @@ public class playerController : MonoBehaviour
         {
             currentColor = ColorState.Black;
         }
+        */
         if (Input.GetKey(KeyCode.N))
         {
             currentColor = ColorState.Regular;
         }
+        diamonds[0].sprite = status[(int)currentColor];
     }
     private void OnCollisionEnter2D(Collision2D other) {
 
