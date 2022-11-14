@@ -28,13 +28,10 @@ public class playerController : MonoBehaviour
     [Header("Player Health")]
     [SerializeField] int health = 1;
 
-
-    [Header("Player Health")]
-    [SerializeField] int redLimit = 3;
-    [SerializeField] int blueLimit = 3;
-    [SerializeField] int yellowLimit = 3;
-    //[SerializeField] int greenLimit = 1;
-    //[SerializeField] int blackLimit = 1;
+    [Header("Limit Vars")]
+    public int redLimit = 4;
+    public  int blueLimit = 4;
+    public int yellowLimit = 4;
 
     [Header("Bools")]
     [SerializeField] bool isGrounded;
@@ -53,16 +50,6 @@ public class playerController : MonoBehaviour
     private float checkRadius;
 
     [SerializeField]
-    private Image[] diamonds;
-
-    [SerializeField]
-    private Sprite[] status;
-
-    [SerializeField]
-    private Sprite[] numbers;
-
-
-    [SerializeField]
 
     public ColorState currentColor = ColorState.Regular;
     private int colorIndex;
@@ -70,14 +57,13 @@ public class playerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log(redLimit);
         rigidbody2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         oldspeed = speed;
         oldJump = jumpforce;
 
-        diamonds[1].sprite = numbers[redLimit];
-        diamonds[2].sprite = numbers[blueLimit];
-        diamonds[3].sprite = numbers[yellowLimit];
+
     }
     private void FixedUpdate()
     {
@@ -112,39 +98,23 @@ public class playerController : MonoBehaviour
     private void ChangeColor(){
         if (Input.GetKey(KeyCode.Z) && redLimit > 0 && currentColor != ColorState.Red)
         {
-            currentColor = ColorState.Red;
             redLimit--;
-            diamonds[1].sprite = numbers[redLimit];
-            
+            currentColor = ColorState.Red;
         }
         if (Input.GetKey(KeyCode.X) && blueLimit > 0 && currentColor != ColorState.Blue)
         {
-            currentColor = ColorState.Blue;
             blueLimit--;
-            diamonds[2].sprite = numbers[blueLimit];
-            
+            currentColor = ColorState.Blue;
         }
         if (Input.GetKey(KeyCode.C) && yellowLimit > 0 && currentColor != ColorState.Yellow)
         {
-            currentColor = ColorState.Yellow;
             yellowLimit--;
-            diamonds[3].sprite = numbers[yellowLimit];
+            currentColor = ColorState.Yellow;
         }
-        /*
-        if (Input.GetKey(KeyCode.V))
-        {
-            currentColor = ColorState.Green;
-        }
-        if (Input.GetKey(KeyCode.B))
-        {
-            currentColor = ColorState.Black;
-        }
-        */
-        if (Input.GetKey(KeyCode.N))
+        if (Input.GetKey(KeyCode.V) && currentColor != ColorState.Regular)
         {
             currentColor = ColorState.Regular;
         }
-        diamonds[0].sprite = status[(int)currentColor];
     }
     private void OnCollisionEnter2D(Collision2D other) {
 
@@ -173,6 +143,7 @@ public class playerController : MonoBehaviour
             transform.localScale = localScale;
         }
     }
+
 
     void GroundCheck(){
         isGrounded = Physics2D.OverlapCircle(feetPosition.position, checkRadius, whatIsGround);

@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
     public GameObject completeGameScreen;
     public GameObject player;
 
+    public GameObject diamondUI;
+
     private void Awake() 
     {
         isGameOver = false;
@@ -35,6 +37,7 @@ public class GameManager : MonoBehaviour
         if (isGameOver){
             gameOverScreen.SetActive(true);
             player.SetActive(false);
+            diamondUI.SetActive(false);
         }
     }
 
@@ -42,5 +45,6 @@ public class GameManager : MonoBehaviour
         completeGameScreen.SetActive(true);
         yield return new WaitForSeconds(1);
         player.SetActive(false);
+        diamondUI.SetActive(false);
     }
 }
