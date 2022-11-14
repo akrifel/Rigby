@@ -57,7 +57,6 @@ public class playerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(redLimit);
         rigidbody2d = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         oldspeed = speed;

@@ -148,7 +148,7 @@ MonoBehaviour:
   - {x: 0, y: 0, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: -209546
+  m_InstanceId: 51890
 --- !u!19719996 &1793182710514957206
 TilemapCollider2D:
   m_ObjectHideFlags: 0

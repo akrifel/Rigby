@@ -41,9 +41,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public IEnumerator CompleteGame(){
+    public void CompleteGame(){
         completeGameScreen.SetActive(true);
-        yield return new WaitForSeconds(1);
         player.SetActive(false);
         diamondUI.SetActive(false);
     }
